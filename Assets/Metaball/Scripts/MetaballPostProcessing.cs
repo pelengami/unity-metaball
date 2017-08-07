@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ImagyVFX.Scripts.Metaball
+namespace Metaball.Scripts
 {
     internal sealed class MetaballPostProcessing : MonoBehaviour
     {

@@ -45,7 +45,7 @@ Shader "Metaball/Metaball" {
                     finalColor.b=floor((finalColor/0.2)*0.5);
                 }
                 
-                if (texcol.a < _OutlineWidth && texcol.a > 0.05)
+                if (texcol.a < _OutlineWidth && texcol.a > 0)
                     return _OutlineColor;
                 
                 return finalColor * _Color;
